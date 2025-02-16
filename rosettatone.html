@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="rosettatoneStyle.css">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROSETTATONe</title>
+</head>
+<body onload = "allStringUpdate();">
+    <h1>ROSETTA TONe</h1> 
+    <h2>*the on-the-spot tablature generator*</h2>
+    <h3>what tuning would you like today?</h3>
+
+
+    <div class="container">
+
+    <div class='advertisement'></div>
+
+    <div class="innercontainer">
+    <div class="guitarContainer">
+    <nav class = "tonebarGUITAR">
+        <ul>
+        <li>    
+            <div class = "dropdown">
+                <button1 onclick="openMenu('theNotes', 'highE')" id ="highE" class ="dropbtn">E</button1>
+                <p id = "highEString" class="tabline">| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |</p>
+                <div id="theNotes" class="note-bar">
+                    <button2 onclick="makeString('1','A', document.getElementById('key').textContent),closeMenu('highE')">A</button2>
+                    <button2 onclick="makeString('1','A#', document.getElementById('key').textContent),closeMenu('highE')" >A#</button2>
+                    <button2 onclick="makeString('1','B', document.getElementById('key').textContent),closeMenu('highE')" >B</button2>
+                    <button2 onclick="makeString('1','C', document.getElementById('key').textContent),closeMenu('highE')" >C</button2>
+                    <button2 onclick="makeString('1','C#', document.getElementById('key').textContent),closeMenu('highE')" >C#</button2>
+                    <button2 onclick="makeString('1','D', document.getElementById('key').textContent),closeMenu('highE')" >D</button2>
+                    <button2 onclick="makeString('1','D#', document.getElementById('key').textContent),closeMenu('highE')" >D#</button2>
+                    <button2 onclick="makeString('1','E', document.getElementById('key').textContent),closeMenu('highE')" >E</button2>
+                    <button2 onclick="makeString('1','F', document.getElementById('key').textContent),closeMenu('highE')" >F</button2>
+                    <button2 onclick="makeString('1','F#', document.getElementById('key').textContent),closeMenu('highE')" >F#</button2>
+                    <button2 onclick="makeString('1','G', document.getElementById('key').textContent),closeMenu('highE')" >G</button2>
+                    <button2 onclick="makeString('1','G#', document.getElementById('key').textContent),closeMenu('highE')" >G#</button2>
+                </div>
+            </div>
+        </li>
+
+        <li>    
+            <div class = "dropdown">
+                <button1 onclick="openMenu('theNotes2', 'B')" id ="B" class ="dropbtn">B</button1>
+                <p id = "BString" class="tabline">| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |</p>
+                <div id="theNotes2" class="note-bar">
+                    <button2 onclick="makeString('2','A', document.getElementById('key').textContent),closeMenu('B')">A</button2>
+                    <button2 onclick="makeString('2','A#', document.getElementById('key').textContent),closeMenu('B')" >A#</button2>
+                    <button2 onclick="makeString('2','B', document.getElementById('key').textContent),closeMenu('B')" >B</button2>
+                    <button2 onclick="makeString('2','C', document.getElementById('key').textContent),closeMenu('B')" >C</button2>
+                    <button2 onclick="makeString('2','C#', document.getElementById('key').textContent),closeMenu('B')" >C#</button2>
+                    <button2 onclick="makeString('2','D', document.getElementById('key').textContent),closeMenu('B')" >D</button2>
+                    <button2 onclick="makeString('2','D#', document.getElementById('key').textContent),closeMenu('B')" >D#</button2>
+                    <button2 onclick="makeString('2','E', document.getElementById('key').textContent),closeMenu('B')" >E</button2>
+                    <button2 onclick="makeString('2','F', document.getElementById('key').textContent),closeMenu('B')" >F</button2>
+                    <button2 onclick="makeString('2','F#', document.getElementById('key').textContent),closeMenu('B')" >F#</button2>
+                    <button2 onclick="makeString('2','G', document.getElementById('key').textContent),closeMenu('B')" >G</button2>
+                    <button2 onclick="makeString('2','G#', document.getElementById('key').textContent),closeMenu('B')" >G#</button2>
+                </div>
+            </div>
+        </li>
+
+        <li>    
+            <div class = "dropdown">
+                <button1 onclick="openMenu('theNotes3', 'G')" id ="G" class ="dropbtn">G</button1>
+                <p id = "GString" class="tabline">| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |</p>
+                   <div id="theNotes3" class="note-bar">
+                    <button2 onclick="makeString('3','A', document.getElementById('key').textContent),closeMenu('G')">A</button2>
+                    <button2 onclick="makeString('3','A#', document.getElementById('key').textContent),closeMenu('G')" >A#</button2>
+                    <button2 onclick="makeString('3','B', document.getElementById('key').textContent),closeMenu('G')" >B</button2>
+                    <button2 onclick="makeString('3','C', document.getElementById('key').textContent),closeMenu('G')" >C</button2>
+                    <button2 onclick="makeString('3','C#', document.getElementById('key').textContent),closeMenu('G')" >C#</button2>
+                    <button2 onclick="makeString('3','D', document.getElementById('key').textContent),closeMenu('G')" >D</button2>
+                    <button2 onclick="makeString('3','D#', document.getElementById('key').textContent),closeMenu('G')" >D#</button2>
+                    <button2 onclick="makeString('3','E', document.getElementById('key').textContent),closeMenu('G')" >E</button2>
+                    <button2 onclick="makeString('3','F', document.getElementById('key').textContent),closeMenu('G')" >F</button2>
+                    <button2 onclick="makeString('3','F#', document.getElementById('key').textContent),closeMenu('G')" >F#</button2>
+                    <button2 onclick="makeString('3','G', document.getElementById('key').textContent),closeMenu('G')" >G</button2>
+                    <button2 onclick="makeString('3','G#', document.getElementById('key').textContent),closeMenu('G')" >G#</button2>
+                </div>
+            </div>
+        </li>
+
+        <li>    
+            <div class = "dropdown">
+                <button1 onclick="openMenu('theNotes4', 'D')" id ="D" class ="dropbtn">D</button1>
+                <p id = "DString" class="tabline">| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |</p>
+                <div id="theNotes4" class="note-bar">
+                    <button2 onclick="makeString('4','A', document.getElementById('key').textContent),closeMenu('D')">A</button2>
+                    <button2 onclick="makeString('4','A#', document.getElementById('key').textContent),closeMenu('D')" >A#</button2>
+                    <button2 onclick="makeString('4','B', document.getElementById('key').textContent),closeMenu('D')" >B</button2>
+                    <button2 onclick="makeString('4','C', document.getElementById('key').textContent),closeMenu('D')" >C</button2>
+                    <button2 onclick="makeString('4','C#', document.getElementById('key').textContent),closeMenu('D')" >C#</button2>
+                    <button2 onclick="makeString('4','D', document.getElementById('key').textContent),closeMenu('D')" >D</button2>
+                    <button2 onclick="makeString('4','D#', document.getElementById('key').textContent),closeMenu('D')" >D#</button2>
+                    <button2 onclick="makeString('4','E', document.getElementById('key').textContent),closeMenu('D')" >E</button2>
+                    <button2 onclick="makeString('4','F', document.getElementById('key').textContent),closeMenu('D')" >F</button2>
+                    <button2 onclick="makeString('4','F#', document.getElementById('key').textContent),closeMenu('D')" >F#</button2>
+                    <button2 onclick="makeString('4','G', document.getElementById('key').textContent),closeMenu('D')" >G</button2>
+                    <button2 onclick="makeString('4','G#', document.getElementById('key').textContent),closeMenu('D')" >G#</button2>
+                </div>
+            </div>
+        </li>
+
+        <li>    
+            <div class = "dropdown">
+                <button1 onclick="openMenu('theNotes5', 'A')" id ="A" class ="dropbtn">A</button1>
+                <p id = "AString" class="tabline">| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |</p>
+                <div id="theNotes5" class="note-bar">
+                    <button2 onclick="makeString('5','A', document.getElementById('key').textContent),closeMenu('A')">A</button2>
+                    <button2 onclick="makeString('5','A#', document.getElementById('key').textContent),closeMenu('A')" >A#</button2>
+                    <button2 onclick="makeString('5','B', document.getElementById('key').textContent),closeMenu('A')" >B</button2>
+                    <button2 onclick="makeString('5','C', document.getElementById('key').textContent),closeMenu('A')" >C</button2>
+                    <button2 onclick="makeString('5','C#', document.getElementById('key').textContent),closeMenu('A')" >C#</button2>
+                    <button2 onclick="makeString('5','D', document.getElementById('key').textContent),closeMenu('A')" >D</button2>
+                    <button2 onclick="makeString('5','D#', document.getElementById('key').textContent),closeMenu('A')" >D#</button2>
+                    <button2 onclick="makeString('5','E', document.getElementById('key').textContent),closeMenu('A')" >E</button2>
+                    <button2 onclick="makeString('5','F', document.getElementById('key').textContent),closeMenu('A')" >F</button2>
+                    <button2 onclick="makeString('5','F#', document.getElementById('key').textContent),closeMenu('A')" >F#</button2>
+                    <button2 onclick="makeString('5','G', document.getElementById('key').textContent),closeMenu('A')" >G</button2>
+                    <button2 onclick="makeString('5','G#', document.getElementById('key').textContent),closeMenu('A')" >G#</button2>
+                </div>
+            </div>
+        </li>
+
+        <li>    
+            <div class = "dropdown">
+                <button1 onclick="openMenu('theNotes6', 'E')" id ="E" class ="dropbtn">E</button1>
+                <p id = "EString" class="tabline">| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |</p>
+                <div id="theNotes6" class="note-bar">
+                    <button2 onclick="makeString('6','A', document.getElementById('key').textContent),closeMenu('E')">A</button2>
+                    <button2 onclick="makeString('6','A#', document.getElementById('key').textContent),closeMenu('E')" >A#</button2>
+                    <button2 onclick="makeString('6','B', document.getElementById('key').textContent),closeMenu('E')" >B</button2>
+                    <button2 onclick="makeString('6','C', document.getElementById('key').textContent),closeMenu('E')" >C</button2>
+                    <button2 onclick="makeString('6','C#', document.getElementById('key').textContent),closeMenu('E')" >C#</button2>
+                    <button2 onclick="makeString('6','D', document.getElementById('key').textContent),closeMenu('E')" >D</button2>
+                    <button2 onclick="makeString('6','D#', document.getElementById('key').textContent),closeMenu('E')" >D#</button2>
+                    <button2 onclick="makeString('6','E', document.getElementById('key').textContent),closeMenu('E')" >E</button2>
+                    <button2 onclick="makeString('6','F', document.getElementById('key').textContent),closeMenu('E')" >F</button2>
+                    <button2 onclick="makeString('6','F#', document.getElementById('key').textContent),closeMenu('E')" >F#</button2>
+                    <button2 onclick="makeString('6','G', document.getElementById('key').textContent),closeMenu('E')" >G</button2>
+                    <button2 onclick="makeString('6','G#', document.getElementById('key').textContent),closeMenu('E')" >G#</button2>
+                </div>
+            </div>
+        </li>
+    </ul>
+    </nav>
+    </div>
+    <div class="settingscontainer">
+        <div id="keys" class="settings">
+        <nav class = "tonebar">
+            <ul>
+            <li>    
+                <div class = "dropdown">
+                    <h4>key of: </h4>
+                        <button3 id = "key" onclick="openMenu('keyMenu','key')">A</button3>
+                    <div id="keyMenu" class="note-bar2">
+                        <button2 onclick="changeNote('A','key'),allStringUpdate()" >A</button2>
+                        <button2 onclick="changeNote('A#','key'),allStringUpdate()" >A#</button2>
+                        <button2 onclick="changeNote('B','key'),allStringUpdate()" >B</button2>
+                        <button2 onclick="changeNote('C','key'),allStringUpdate()" >C</button2>
+                        <button2 onclick="changeNote('C#','key'),allStringUpdate()" >C#</button2>
+                        <button2 onclick="changeNote('D','key'),allStringUpdate()" >D</button2>
+                        <button2 onclick="changeNote('D#','key'),allStringUpdate()" >D#</button2>
+                        <button2 onclick="changeNote('E','key'),allStringUpdate()" >E</button2>
+                        <button2 onclick="changeNote('F','key'),allStringUpdate()" >F</button2>
+                        <button2 onclick="changeNote('F#','key'),allStringUpdate()" >F#</button2>
+                        <button2 onclick="changeNote('G','key'),allStringUpdate()" >G</button2>
+                        <button2 onclick="changeNote('G#','key'),allStringUpdate()" >G#</button2>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        </nav>
+        </div>
+    
+
+
+        <div class="settings">
+        <nav  class = "tonebar">
+            <ul>
+            <li>    
+                <div id="modes" class = "dropdown">
+                    <h4>mode of: </h4>
+                        <button3 id = "mode" onclick="openMenu('modeMenu','mode')">Major</button3>
+                    <div id="modeMenu" class="note-bar3">
+                        <button2 onclick="changeNote('Major','mode'),allStringUpdate()" >Major</button2>
+                        <button2 onclick="changeNote('Minor','mode'),allStringUpdate()" >Minor</button2>
+                        <button2 onclick="changeNote('Dorian','mode'),allStringUpdate()" >Dorian</button2>
+                        <button2 onclick="changeNote('Phrygian','mode'),allStringUpdate()" >Phrygian</button2>
+                        <button2 onclick="changeNote('Lydian','mode'),allStringUpdate()" >Lydian</button2>
+                        <button2 onclick="changeNote('Mixolydian','mode'),allStringUpdate()" >Mixolydian</button2>
+                        <button2 onclick="changeNote('Aeolian','mode'),allStringUpdate()" >Aeolian</button2>
+                        <button2 onclick="changeNote('Locrian','mode'),allStringUpdate()" >Locrian</button2>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        </nav>
+        </div>
+    </div>
+    </div>          
+
+    <div class='advertisement'></div>
+    </div>
+    
+    <br>
+    <br>
+    
+    <hr>
+
+    <div class="bottomcontainer">
+        <div class="hyperlinks">
+            <a href="https://www.paypal.com/donate/?business=M9GJTJF3GHQY2&no_recurring=0&item_name=thank+you%21%21+%3A%29%29&currency_code=USD">donate</a>
+            <br>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeNINpugsyChrpi8Y4rLB_1IAo81gHWGXtMhe1pEeNtT3E_dg/viewform?usp=preview">suggestion box</a>
+            <br>
+            <!-- <a href="#">my other stuff</a>
+            <br> --->
+            <a href="#">promotional video</a>
+        </div>
+
+        <div class="credits">
+            <h6>a website solely made by</h6>
+            <h5>devin<br>
+            lee<br>
+            thompson</h2>
+        </div>
+    
+    </div>
+    
+    
+   
+
+
+    <script>
+let currentOpenMenu = null;
+let currentButton = null;
+
+function openMenu(id, string) {
+    if (currentOpenMenu && currentOpenMenu !== id) {
+        document.getElementById(currentOpenMenu).classList.remove("show");
+        currentButton.style.backgroundColor = ''; 
+    }
+
+
+    const menu = document.getElementById(id);
+    menu.classList.toggle("show");
+
+   
+    const button = document.getElementById(string);
+    if (menu.classList.contains("show")) {
+        button.style.backgroundColor = '#b3cbff'; 
+    } else {
+        button.style.backgroundColor = ''; 
+    }
+    currentOpenMenu = menu.classList.contains("show") ? id : null;
+    currentButton = menu.classList.contains("show") ? button : null;
+}
+
+
+    </script>
+    <script>
+        function changeNote(note, string){
+            //if the string note is sharp- translater the output
+            var curNote=document.getElementById(string).textContent = note;
+           
+        }    
+    </script>
+    <script>
+        function allStringUpdate(){
+            makeString('1',document.getElementById('highE').textContent, document.getElementById('key').textContent, document.getElementById('mode').textContent);
+            makeString('2',document.getElementById('B').textContent, document.getElementById('key').textContent, document.getElementById('mode').textContent);
+            makeString('3',document.getElementById('G').textContent, document.getElementById('key').textContent, document.getElementById('mode').textContent);
+            makeString('4',document.getElementById('D').textContent, document.getElementById('key').textContent, document.getElementById('mode').textContent);
+            makeString('5',document.getElementById('A').textContent, document.getElementById('key').textContent, document.getElementById('mode').textContent);
+            makeString('6',document.getElementById('E').textContent, document.getElementById('key').textContent, document.getElementById('mode').textContent);
+        }
+    </script>
+
+
+    <script src="reString.js"></script>
+
+    <script>
+        function closeMenu(string){
+            const button = document.getElementById(string);
+            button.style.backgroundColor = ''; // Reset color if the menu is closed
+            document.getElementById(currentOpenMenu).classList.remove("show");
+            
+        }
+    </script>
+</body>
+</html>

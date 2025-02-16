@@ -1,0 +1,342 @@
+
+@font-face {
+    font-family: HelveticaBold ;
+    src: url(Helvetica-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: FragmentMono ;
+    src: url(SometypeMono-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: HelveticaItalic ;
+    src: url(HelveticaNeueItalic.ttf);
+    font-weight: italic;
+}
+
+@font-face {
+    font-family: "Helvetica Monospaced W06 Rg";
+    
+    src: url("https://db.onlinewebfonts.com/t/395410b1fd4cca8cfb17bd78a9c34889.eot");
+    src: url("https://db.onlinewebfonts.com/t/395410b1fd4cca8cfb17bd78a9c34889.eot?#iefix")format("embedded-opentype"),
+
+    url("https://db.onlinewebfonts.com/t/395410b1fd4cca8cfb17bd78a9c34889.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/395410b1fd4cca8cfb17bd78a9c34889.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/395410b1fd4cca8cfb17bd78a9c34889.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/395410b1fd4cca8cfb17bd78a9c34889.svg#Helvetica Monospaced W06 Rg")format("svg");
+}
+
+
+h1{
+    font-size: 150px;
+    font-family: HelveticaBold;
+    color: #3576FF;
+    text-align: center;
+    margin:0;
+    margin-bottom: -20px;
+    padding:0;
+}
+
+h2{
+    font-size: 15px;
+    color: #3576FF;
+    font-family: HelveticaBold;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: -1px;
+    margin:0;
+    margin-bottom: 100;
+    padding:0;
+}
+
+h3{
+    font-size: 40px;
+    color: #3576FF;
+    font-family: HelveticaBold;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+h4{
+    font-size: 40px;
+    color: #3576FF;
+    font-family: HelveticaBold;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-bottom: 10px;
+    display: inline-block; 
+}
+
+h5{
+    font-size: 80px;
+    font-family: HelveticaBold;
+    color: #3576FF;
+    margin-top:0px;
+    margin-bottom: -20px;
+}
+
+h6{
+    font-size: 20px;
+    font-family: HelveticaItalic;
+    color: #3576FF;
+    margin:0;
+    margin-bottom: -10px;
+    padding:0;
+}
+
+
+a{
+    font-size: 40px;
+    color: #3576FF;
+    font-family: HelveticaBold;
+    letter-spacing: -1px;
+    text-align: left;
+    
+}
+
+body {
+    background-color: beige;
+    font-size: 40px;
+    color: #3576FF;
+    font-family: HelveticaBold;
+    letter-spacing: -1px;
+}
+
+button1{
+    font-size: 50px;
+    color: #3576FF;
+    font-family: HelveticaBold;
+    background: none;   
+    padding-right: 10px;  
+    padding-left: 8px;  
+    width: 50px; 
+    border-color:#3576FF;
+    display: inline-block;
+}
+
+button2{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 15px;  
+}
+
+button3{
+  border: 2px solid #3576FF;
+  background:none;
+  color: #3576FF;
+  padding: 10px 30px;
+  font-size: 25px;
+  cursor: pointer;  
+}
+
+button1:hover, button3:hover {
+    transition-duration: 0.4s;
+    color: #8bb0ff;
+}
+
+.tonebarGUITAR ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; 
+    display: inline-block;
+    margin-top: 100px;
+    
+}
+
+
+
+.tonebar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; 
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* This aligns the advertisement divs on both sides of the tonebar */
+    align-items: flex-start; /* Aligns them at the top */
+    position: sticky;
+}
+
+.innercontainer{
+    display: block;
+    justify-content: space-between; /* This aligns the advertisement divs on both sides of the tonebar */
+    align-items: flex-start; /* Aligns them at the top */
+    flex-shrink: 0;
+}
+
+.bottomcontainer{
+    display: flex;
+    justify-content: space-between; /* This aligns the advertisement divs on both sides of the tonebar */
+    align-items: flex-start; /* Aligns them at the top */
+    flex-shrink: 0;
+}
+
+.tonebar{
+    text-align: center;
+}
+
+.advertisement {
+    width: 160px;
+    height: 600px;
+    background-color: black;
+    flex-shrink: 0;
+    position: sticky;
+
+}
+
+.note-bar {  
+    position: absolute;
+    display: none;
+    background-color: #3576FF;
+    text-align: center;
+    width:50%px;
+    top:30px;
+    transform: translate(2%);
+    text-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.note-bar2 {  
+    position: absolute;
+    display: none;
+    background-color: #3576FF;
+    text-align: center;
+    width:50%px;
+    top:610px;
+    transform: translate(-38%,-50%);
+
+    text-wrap: nowrap;
+    white-space: nowrap;
+}
+
+
+.note-bar2 button2 {          
+    cursor: pointer;        
+}
+
+.note-bar3 {  
+
+    position: absolute;
+    display: none;
+    background-color: #3576FF;
+    text-align: center;
+    width:50%px;
+    top:725px;
+    transform: translate(-39%,-50%);
+    text-wrap: nowrap;
+    white-space: nowrap;
+    font-size: 35px;
+}
+
+.note-bar3 button2 {          
+    cursor: pointer;        
+}
+
+.note-bar button2:hover, .note-bar2 button2:hover, .note-bar3 button2:hover {
+    color: #8bb0ff; 
+    
+}
+
+.show {
+    display:block;
+}
+
+.tabline{
+    font-family: FragmentMono;
+    font-size: 50px;
+    color: #ffa500;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;  
+    display:inline-block;
+    justify-content: center;
+    white-space:inherit;
+    text-wrap:nowrap;
+    text-align: left;
+    animation: fadeIn 1s;
+    
+}
+
+.settings-container {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    gap: 20px; /* Adds some space between the stacked elements */
+    align-items: center; /* Centers the content horizontally */
+}
+
+.settings {
+    
+    display: flex;
+    justify-content: center; /* Centers the dropdown inside the settings */
+    
+}
+
+
+
+.dropdown {
+    display: block;
+}
+
+.guitarContainer {
+    display: flex;
+    flex-shrink: 0;  /* Prevent shrinking of the guitar container */
+    flex-grow: 0;    /* Prevent the container from expanding */
+    text-align: center;
+    overflow: hidden; /* Prevent content overflow */
+    margin-bottom: 0px;
+    
+}
+
+.dropdown {
+    
+    display: block;
+    
+}
+
+hr{
+    color: #3576FF;
+    background-color: #3576FF;
+    height: 3px;
+}
+
+.bottomcontainer{
+        display: flex;                  /* Use flexbox for layout */
+        justify-content: space-between;  /* Distribute space between elements */
+        align-items: center;             /* Align items vertically (optional) */
+        padding: 10px;                   /* Optional padding */
+        width: 100%;                     /* Ensure the footer spans the full width */
+
+}
+.hyperlinks{
+    display: inline-block;
+    white-space: nowrap;
+    text-wrap: nowrap;
+    
+
+}
+
+.credits{
+    display: inline;
+    text-align:right;
+    white-space: nowrap;
+    text-wrap: nowrap;
+    float: right;
+    margin-right: 15px;
+}
+
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  
