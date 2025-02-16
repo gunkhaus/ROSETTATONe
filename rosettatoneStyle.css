@@ -215,7 +215,7 @@ button1:hover, button3:hover {
     background-color: #3576FF;
     text-align: center;
     width:50%px;
-    top:30px;
+    top:300px;
     transform: translate(2%);
     text-wrap: nowrap;
     white-space: nowrap;
@@ -227,7 +227,7 @@ button1:hover, button3:hover {
     background-color: #3576FF;
     text-align: center;
     width:50%px;
-    top:610px;
+    top:885px;
     transform: translate(-38%,-50%);
 
     text-wrap: nowrap;
@@ -246,11 +246,11 @@ button1:hover, button3:hover {
     background-color: #3576FF;
     text-align: center;
     width:50%px;
-    top:725px;
+    top:990px;
     transform: translate(-39%,-50%);
     text-wrap: nowrap;
     white-space: nowrap;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .note-bar3 button2 {          
@@ -358,4 +358,5 @@ hr {
   }
 
   
+
 
