@@ -80,14 +80,16 @@ h5{
     margin-bottom: -20px;
 }
 
+
 h6{
     font-size: 20px;
     font-family: HelveticaItalic;
     color: #3576FF;
     margin:0;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
     padding:0;
 }
+
 
 
 a{
