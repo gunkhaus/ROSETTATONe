@@ -133,12 +133,13 @@ button1{
     background: none;   
     padding-right: 10px;  
     padding-left: 8px;  
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     width: 50px; 
     border-color:#3576FF;
     display: inline-block;
 }
+
 
 button2{
     color:#ffffff;
@@ -229,7 +230,7 @@ button1:hover, button3:hover {
     background-color: #3576FF;
     text-align: center;
     width:50%px;
-    top:885px;
+    top:887px;
     transform: translate(-38%,-50%);
 
     text-wrap: nowrap;
@@ -249,7 +250,7 @@ button1:hover, button3:hover {
     text-align: center;
     width:50%px;
     top:990px;
-    transform: translate(-39%,-50%);
+    transform: translate(-37%,-50%);
     text-wrap: nowrap;
     white-space: nowrap;
     font-size: 30px;
@@ -358,6 +359,8 @@ hr {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+  
 
   
 
