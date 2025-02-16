@@ -341,11 +341,8 @@ hr {
 
 .hyperlinks {
 
-    display: inline-block;
-    white-space: nowrap;
-    text-wrap: nowrap;
-    text-align: left;
     margin-top: 0;  /* Ensure no top margin pushing it down */
+    text-align: left;
 }
 
 .credits {
@@ -361,3 +358,4 @@ hr {
   }
 
   
+
